@@ -1,0 +1,9 @@
+<form method = "POST" action = "" name = "myform">
+<input type = "text" id = "valor">
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+jQuery("#valor").val(1);
+jQuery("#myform").submit();
+</script>
